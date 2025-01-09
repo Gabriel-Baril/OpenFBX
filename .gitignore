@@ -34,3 +34,7 @@ projects/tmp/*
 
 runtime/imgui.ini
 build/
+
+*.vcxproj
+*.vcxproj.filters
+out/
