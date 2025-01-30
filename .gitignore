@@ -36,5 +36,8 @@ runtime/imgui.ini
 build/
 
 *.vcxproj
+*.vcxproj.user
 *.vcxproj.filters
 out/
+x64/
+obj/
