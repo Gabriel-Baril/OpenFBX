@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class OpenFBXProject : BaseCppProject
+public class HdnCodeExternalOpenFBXProject : BaseCppProject
 {
-    public OpenFBXProject()
+    public HdnCodeExternalOpenFBXProject()
     {
-        Name = "openfbx";
+        Name = "hdn.code.external.openfbx";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
